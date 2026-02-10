@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
-import requests
 from urllib.parse import urljoin
+
 BASE_URL = 'https://nutrition.umd.edu/'
 
 def parse_meals_html(html: str) -> list[dict]:
